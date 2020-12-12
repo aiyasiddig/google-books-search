@@ -1,7 +1,7 @@
 {
   "name": "google-books",
   "version": "1.0.0",
-  "description": "Google Books",
+  "description": "A book search app using Google Book's API. Allows user to search and save books of interest.",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -10,9 +10,10 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "node": "12.16.3"
   },
-  "author": "",
+  "author": "aiya siddig",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
