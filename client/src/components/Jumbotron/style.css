@@ -1,0 +1,21 @@
+.jumbotron {
+    box-shadow: 5px 5px 7px 0px rgba(135,135,135,0.83);
+    background-image: url("../../utils/images/blur-book-stack-books-bookshelves-590493.jpg");
+    background-size: cover;
+    height: 330px;
+    background-position: center;
+}
+
+.myText {
+    color: white;
+    position: relative;
+    text-shadow: rgb(70, 70, 70) 1px 0 10px;
+}
+.big {
+    font-size: 80px;
+    text-shadow: rgb(19, 19, 19) 1px 0 10px;
+}
+
+h5 {
+    font-size: 25px;
+}
